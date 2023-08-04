@@ -1,9 +1,28 @@
 package SingleInheritanceForRajavel;
 
-public class SinInh {
+class raj {
+
+	void animals() {
+		System.out.println("dog");
+
+	}
+
+}
+
+public class SinInh extends raj {
+
+	void cars() {
+
+		System.out.println("bmw");
+
+	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		SinInh aa = new SinInh();
+
+		aa.animals();
+		aa.cars();
 
 	}
 
